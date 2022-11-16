@@ -210,11 +210,14 @@ body {
   padding: 28px 81px;
   box-shadow: 0 15px 15px black;
   border-radius: 15px;
+  position: relative;
+  transition: all 0.5s;
+  top: 0;
 }
 
 .bike-title__btn__inner:hover {
-  box-shadow: 0 5px 5px black;
-  transition: 0.5s;
+  top: 5px;
+  box-shadow: 0 10px 10px black;
   background-color: #ff4040;
 }
 
@@ -257,6 +260,7 @@ body {
 @media (max-width: 1210px) {
   .bike-title__right__img__item {
     width: 500px;
+    margin-top: 40px;
   }
   .bike-title__info__title {
     font-size: 50px;
@@ -594,6 +598,7 @@ body {
 .buy__button {
 }
 .buy__button__link {
+  display: inline-block;
   padding: 28px 81px;
   font-size: 20px;
   line-height: 24px;
@@ -603,11 +608,14 @@ body {
   background: #131313;
   box-shadow: 0 15px 15px black;
   border-radius: 15px;
+  position: relative;
+  transition: all 0.5s;
+  top: 0;
 }
 
 .buy__button__link:hover {
-  transition: 0.3s;
-  box-shadow: 0 10px 10px black;
+  top: 5px;
+  box-shadow: 0 3px 3px black;
   background-color: #ff4040;
 }
 
